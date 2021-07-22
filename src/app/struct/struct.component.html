@@ -1,0 +1,10 @@
+<button (click)= "change()">{{name}}</button>
+<p class = "h-a-s" *ngIf = "isShow">
+    Toi tron nhe
+</p>
+<ul>
+    <li *ngFor = "let a of arrSubjects">
+        <p>Subject {{arrSubjects.indexOf(a) + 1}}: {{a}}</p>
+    </li>
+</ul>
+
